@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+:root {
+  --light-green: #00b593;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-color {
+  background: var(--light-green);
+  color: #fff;
+}
+.custom-btn {
+  padding: 5px 20px;
+  background: var(--light-green);
+  color: #f8f8f8;
+  border: none;
+}
+button a {
+  text-decoration: none;
+  color: #fff !important;
+}
+button a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+body {
+  overflow-x: hidden;
+  font-family: janna lt;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-right: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+.border-right {
+  border-left: 1px solid #dee2e6 !important;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background: var(--light-green);
+  color: #f8f8f8;
+}
+.sub-menu {
+  padding-right: 0;
+  background: var(--light-green) !important;
+  color: #f8f8f8;
+}
+.sub-menu a {
+  background: var(--light-green) !important;
+  color: #f8f8f8;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+#sidebar-wrapper .list-group .list-group-item.active {
+  background: var(--light-green) !important;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+#page-content-wrapper .btn-primary {
+  background-color: var(--light-green) !important;
+  border-color: var(--light-green);
+}
+#page-content-wrapper .btn-primary a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-right: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    background: #f8f8f8;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-right: -15rem;
+  }
+}
+
+/* Dashboard page */
+.statistics {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.statistic {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Profile */
+.profile {
+  margin: 50px 0;
+}
+/* Start categories page */
+.categories {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.show-cat {
+  margin-top: 50px;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: var(--light-green);
+  border: 1px solid #ccc;
+}
+.table td,
+.table tr {
+  border: 1px solid #ccc;
+}
+/* End categories page */
+
+/* Start edit category page */
+.edit-cat {
+  margin-top: 30px;
+}
+/* End edit category page */
+
+/* Start pagination */
+a.page-link {
+  color: var(--light-green);
+}
+/* End pagination */
+
+/* Start new book page */
+.new-book {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* End new book page */
